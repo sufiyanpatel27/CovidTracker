@@ -1,0 +1,150 @@
+.container {
+    //margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.upper_bar {
+    margin-top: 10px;
+    //background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.left_content {
+    //background-color: red;
+    display: flex;
+}
+
+.website_container {
+    //background-color: orange;
+    width: 150px;
+}
+
+.contact_container {
+    //background-color: green;
+    width: 150px;
+}
+
+.gmail_container {
+    //background-color: yellow;
+    width: 150px;
+}
+
+.right_content {
+    //background-color: aqua;
+    display: flex;
+}
+
+.facebook_container {
+    //background-color: orange;
+    width: 50px;
+}
+
+.twitter_container {
+    //background-color: green;
+    width: 50px;
+}
+
+.youtube_container {
+    //background-color: yellow;
+    width: 50px;
+}
+
+.main_bar {
+    margin-top: 10px;
+    //background-color: red;
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo_container {
+    //background-color: aqua;
+    width: 70px;
+}
+
+.name_container {
+    //background-color: orange;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.right_main_content {
+    //background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+
+.positive_container {
+    //background-color: yellowgreen;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.cured_container {
+    //background-color: blue;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.reports_container {
+    //background-color: rgb(166, 141, 231);
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.newcases_container {
+    //background-color: rgb(69, 50, 118);
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.button_container {
+    //background-color: orange;
+    display: flex;
+}
+
+.main_image_container {
+    //background-color: blue;
+    width: 1000px;
+    display: flex;
+}
+
+.main {
+    width: 1000px;
+}
+
+.lower_content {
+    margin-top: 20px;
+    //background-color: red;
+    display: flex;
+    width: 900px;
+    justify-content: space-evenly;
+}
+
+.cards {
+    height: 300px;
+}
+
+.back {
+    width: 1000px;
+    position: fixed;
+    z-index: -5;
+    margin-top: 520px;
+}
