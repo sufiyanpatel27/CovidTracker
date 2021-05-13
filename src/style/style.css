@@ -179,3 +179,59 @@
 .small_icons {
     height: 30px;
 }
+
+.navbar {
+    background-color: white;
+    height: 100vh;
+    width: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navbar_container {
+    display: flex;
+    flex-direction: column;
+    //background-color: red;
+    height: 60vh;
+    align-items: space-between;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.covidcare_container {
+    background-color: gray;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+
+.Application {
+    display: flex;
+}
+
+.logo_container {
+    //background-color: yellow;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.covidcare_container2 {
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    width: 30%;
+}
+
+.mainscreen_upperbar {
+    background-color: red;
+}
+
+.mainscreen_main_content {
+    display: flex;
+    justify-content: space-between;
+}
