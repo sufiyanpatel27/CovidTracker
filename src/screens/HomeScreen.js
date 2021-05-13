@@ -52,8 +52,8 @@ export default function HomeScreen() {
             })
             setHospitalData(l)
         })
-        console.log(hospitalData)
-    })
+        return () => data
+    }, [])
     return (
         <div className='container'>
             <img src={back} alt='alt' className='back' />

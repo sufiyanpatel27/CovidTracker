@@ -8,18 +8,15 @@ import firebase from 'firebase'
 
 export default function MainScreen() {
     const location = useLocation();
-    const [username, setUsername] = useState()
 
     useEffect(() => {
-        const data = firebase.database().ref(location.username)
-        data.on('value', snapshot => {
-            setUsername(snapshot.val())
-        })
+        console.log(location.username)
     })
+
     return (
         <div>
             <h1>main screen</h1>
-            <h6>{username}</h6>
+            <h6>{location.username}</h6>
         </div>
     )
 }
