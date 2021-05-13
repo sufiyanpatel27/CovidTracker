@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import { useLocation } from "react-router-dom";
 
+//chart js
+import MultiAxisLine from './multipleline'
+import DoughnutChart from './donut'
+import MyApp from './calender'
 
 //firebse
 import firebase from 'firebase'
@@ -15,6 +19,7 @@ import healthcare from '../assets/healthcare.png'
 import no_beds from '../assets/no_beds.png'
 import no_oxygen from '../assets/no_oxygen.png'
 import no_vaccines from '../assets/no_vaccines.png'
+import patients from '../assets/patients.png'
 
 export default function MainScreen() {
     const location = useLocation();
@@ -48,11 +53,19 @@ export default function MainScreen() {
                     <img src={no_vaccines} alt='no_beds' />
                 </div>
                 <div className="mainscreen_main_graph">
-
+                    <MultiAxisLine />
                 </div>
             </div>
             <div className="covidcare_container2">
-                second
+                <div className="patients_container">
+                    <img src={patients} alt='patients' />
+                </div>
+                <div className="piechart">
+                    <DoughnutChart />
+                </div>
+                <div className='calender'>
+                    <MyApp />
+                </div>
             </div>
         </div>
     )

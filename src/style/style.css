@@ -201,7 +201,7 @@
 }
 
 .covidcare_container {
-    background-color: gray;
+    background-color: white;
     display: flex;
     height: 100vh;
     width: 100%;
@@ -221,10 +221,11 @@
 }
 
 .covidcare_container2 {
-    background-color: black;
+    //background-color: black;
     display: flex;
     height: 100vh;
     width: 30%;
+    flex-direction: column;
 }
 
 .mainscreen_upperbar {
@@ -234,4 +235,20 @@
 .mainscreen_main_content {
     display: flex;
     justify-content: space-between;
+}
+
+.mainscreen_main_graph {
+    width: 1000px;
+}
+
+.patients_container {
+    background-color: blue;
+}
+
+.piechart {
+    background-color: white;
+}
+
+. calender {
+    background-color: blue;
 }
