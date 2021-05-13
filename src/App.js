@@ -14,10 +14,6 @@ import firebaseConfig from './config/firebase'
 firebase.initializeApp(firebaseConfig)
 
 function App() {
-  const data = firebase.database().ref('/');
-  data.on('value', snpashot => {
-    console.log(snpashot.val())
-  })
   return (
     <Router>
       <div className='App'>
