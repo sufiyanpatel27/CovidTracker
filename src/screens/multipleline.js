@@ -2,11 +2,11 @@ import React from 'react';
 import { Line } from 'react-chartjs-2';
 
 const data = {
-    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'Jul'],
+    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
     datasets: [
         {
             label: 'Positive',
-            data: [300, 250, 275, 230, 175, 250, 290],
+            data: [300, 250, 275, 230, 175, 250, 290, 250, 220, 330, 150, 180],
             fill: false,
             backgroundColor: 'rgb(255, 99, 132)',
             borderColor: 'rgba(255, 99, 132, 0.2)',
@@ -14,7 +14,7 @@ const data = {
         },
         {
             label: 'Cured',
-            data: [250, 275, 225, 175, 250, 200, 225],
+            data: [250, 275, 225, 175, 250, 200, 225, 250, 260, 290, 320, 350],
             fill: false,
             backgroundColor: 'rgb(54, 162, 235)',
             borderColor: 'rgba(54, 162, 235, 0.2)',

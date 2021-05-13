@@ -65,11 +65,6 @@
     align-items: flex-end;
 }
 
-.logo_container {
-    //background-color: aqua;
-    width: 70px;
-}
-
 .name_container {
     //background-color: orange;
     display: flex;
@@ -188,6 +183,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    position: fixed;
 }
 
 .navbar_container {
@@ -201,54 +197,205 @@
 }
 
 .covidcare_container {
-    background-color: white;
+    background-color: #EDF1F8;
     display: flex;
-    height: 100vh;
-    width: 100%;
+    height: 100%;
+    width: 75%;
     flex-direction: column;
+    padding-left: 50px;
 }
 
 .Application {
     display: flex;
+    background-color: #EDF1F8;
 }
 
 .logo_container {
     //background-color: yellow;
+    width: 70px;
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.logo_size {
+    width: 70px;
+}
+
+.navbar_icons {
+    width: 20px;
+}
+
 .covidcare_container2 {
-    //background-color: black;
+    background-color: #EDF1F8;
     display: flex;
-    height: 100vh;
-    width: 30%;
+    height: 100%;
+    width: 25%;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .mainscreen_upperbar {
-    background-color: red;
+    //background-color: red;
+    padding-left: 100px;
 }
 
 .mainscreen_main_content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    //background-color: aqua;
+}
+
+.oxygen_container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 281px;
+    border-radius: 29px;
+}
+
+.patients_container_image {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 242px;
+    border-radius: 29px;
+}
+
+.dots_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+    padding-right: 20px;
+}
+
+.oxygen_tank_container {
+    //background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.oxygen_cylinder_size {
+    height: 90px;
+}
+
+.oxygen_count {
+    //background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 
 .mainscreen_main_graph {
-    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //background-color: greenyellow;
+    height: 500px;
 }
 
 .patients_container {
-    background-color: blue;
+    //background-color: green;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.piechart_container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 29px;
+}
+
+.inner_piechart_container {
+    //background-color: gold;
+    width: 250px;
 }
 
 .piechart {
-    background-color: white;
+    //background-color: yellow;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-. calender {
-    background-color: blue;
+.calender_container {
+    width: 300px;
+}
+
+.calender {
+    //background-color: aqua;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.multiple_container {
+    width: 800px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.patients {
+    height: 250px;
+}
+
+.doctors_container {
+    //background-color: violet;
+    width: 1000px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+
+.users2 {
+    background-color: white;
+    height: 50px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 10px 10px 20px rgb(218, 218, 218);
+    color: black;
+}
+
+.doctors_name {
+    #background-color: aqua;
+    display: flex;
+}
+
+.doctors_labels {
+    padding-left: 100px;
+}
+
+.users3 {
+    background-color: white;
+    height: 50px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    color: black;
+    font-size: 18px;
 }
