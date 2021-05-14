@@ -486,3 +486,92 @@
     color: black;
     font-size: 18px;
 }
+
+.login_screen {
+    background-image: url(../assets/login_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    
+  }
+
+  .welcome_container {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      margin-left: 100px;
+  }
+
+  .welcome {
+      color: white;
+      height: 100ox;
+  }
+
+  .welcome_text {
+      color: white;
+      height: 200px;
+  }
+
+  .know_button {
+      cursor: pointer;
+  }
+
+  .login_container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -100px;
+    margin-top: -300px
+  }
+
+  .signin_container {
+      //background-color: teal;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 300px
+  }
+
+  .login_username {
+      background-color: tomato;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .login_password {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_click_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.login_click_design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #267DFF;
+    height: 48px;
+    width: 300px;
+    border-radius: 50px;
+    color: white;
+
+}
+
+.input_username {
+    border: none;
+    height: 40px
+}

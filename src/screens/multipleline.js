@@ -6,7 +6,7 @@ const data = {
     datasets: [
         {
             label: 'Positive',
-            data: [260, 220, 240, 200, 250, 220, 225, 255, 200, 225, 230, 180],
+            data: [240, 220, 240, 200, 250, 220, 225, 255, 200, 225, 230, 180],
             fill: true,
             backgroundColor: 'rgb(255, 201, 147, 0.2)',
             borderColor: 'rgb(255, 201, 147, 1)',
