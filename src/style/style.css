@@ -24,16 +24,19 @@
 .website_container {
     //background-color: orange;
     width: 150px;
+    cursor: pointer;
 }
 
 .contact_container {
     //background-color: green;
     width: 150px;
+    cursor: pointer;
 }
 
 .gmail_container {
     //background-color: yellow;
     width: 150px;
+    cursor: pointer;
 }
 
 .right_content {
@@ -44,16 +47,19 @@
 .facebook_container {
     //background-color: orange;
     width: 50px;
+    cursor: pointer;
 }
 
 .twitter_container {
     //background-color: green;
     width: 50px;
+    cursor: pointer;
 }
 
 .youtube_container {
     //background-color: yellow;
     width: 50px;
+    cursor: pointer;
 }
 
 .main_bar {
@@ -84,6 +90,7 @@
     display: flex;
     justify-content: center;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .cured_container {
@@ -92,6 +99,7 @@
     display: flex;
     justify-content: center;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .reports_container {
@@ -100,6 +108,7 @@
     display: flex;
     justify-content: center;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .newcases_container {
@@ -108,11 +117,13 @@
     display: flex;
     justify-content: center;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .button_container {
     //background-color: orange;
     display: flex;
+    cursor: pointer;
 }
 
 .main_image_container {
@@ -135,6 +146,12 @@
 
 .cards {
     height: 300px;
+    transition: height 1s;
+    cursor:pointer;
+}
+
+.cards:hover {
+    height: 350px;
 }
 
 .back {
@@ -164,11 +181,25 @@
     font-size: 18px;
 }
 
+.users {
+    height: 50px;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.users:hover {
+    height: 60px;
+    width: 110%;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
 .name_container {
     //background-color: red;
     width: 70px;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .small_icons {
@@ -225,6 +256,11 @@
 
 .navbar_icons {
     width: 20px;
+    transition: 0.5s;
+}
+
+.navbar_icons:hover {
+    width: 30px;
 }
 
 .covidcare_container2 {
@@ -254,6 +290,15 @@
     width: 200px;
     height: 281px;
     border-radius: 29px;
+    transition: 1s;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgb(218, 218, 218);
+}
+
+.oxygen_container:hover {
+    width: 210px;
+    height: 291px;
+    margin-top: -10px ;
 }
 
 .patients_container_image {
@@ -308,6 +353,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.patients_container:hover {
+    //width: 310px;
+    height: 310px;
+    margin-top: -10px ;
 }
 
 .piechart_container {
@@ -318,11 +371,25 @@
     width: 300px;
     height: 300px;
     border-radius: 29px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.piechart_container:hover {
+    width: 350px;
+    height: 350px;
+    margin-top: -10px ;
+}
+
+.inner_piechart_container:hover {
+    width: 280px;
+    margin-top: -10px ;
 }
 
 .inner_piechart_container {
     //background-color: gold;
-    width: 250px;
+    width: 230px;
+    transition: 1s;
 }
 
 .piechart {
@@ -345,10 +412,17 @@
     align-items: center;
 }
 
+
 .multiple_container {
     width: 800px;
     background-color: white;
     border-radius: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.multiple_container:hover {
+    width: 900px;
 }
 
 .patients {
@@ -377,6 +451,19 @@
     padding: 5px;
     box-shadow: 10px 10px 20px rgb(218, 218, 218);
     color: black;
+}
+
+.users2 {
+    height: 50px;
+    width: 900px;
+    transition: 0.5s;
+}
+
+.users2:hover {
+    height: 60px;
+    width: 1000px;
+    margin-top: 10px;
+    margin-left: -50px;
 }
 
 .doctors_name {

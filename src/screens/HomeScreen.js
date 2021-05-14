@@ -18,6 +18,8 @@ import vaccines from '../assets/vaccines.png'
 import beds from '../assets/beds.png'
 import oxygen from '../assets/oxygen.png'
 import vaccine from '../assets/vaccine.png'
+import sign_in_button from '../assets/sign_in_button.png'
+import sign_up_button from '../assets/sign_up_button.png'
 
 
 //firebase
@@ -106,7 +108,13 @@ export default function HomeScreen() {
                         REPORTS
                     </div>
                     <div className='button_container'>
-                        <img src={buttons} alt='log in' />
+                        <img src={sign_up_button} alt='log in' />
+                    </div>
+                    <div style={{ opacity: 0 }}>
+                        dfsf
+                    </div>
+                    <div className='button_container'>
+                        <img src={sign_in_button} alt='log in' />
                     </div>
                 </div>
             </div>

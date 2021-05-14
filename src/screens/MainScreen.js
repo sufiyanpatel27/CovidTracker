@@ -113,7 +113,7 @@ export default function MainScreen() {
                             <img src={dots} alt='dots' />
                         </div>
                         <div className='oxygen_tank_container'>
-                            <img src={bed_cylinder} alt='oxygen' className='oxygen_cylinder_size' />
+                            <img src={oxygen_cylinder} alt='oxygen' className='oxygen_cylinder_size' />
                         </div>
                         <div className='oxygen_count'>
                             <h3>Oxygen</h3>

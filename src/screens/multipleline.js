@@ -2,52 +2,35 @@ import React from 'react';
 import { Line } from 'react-chartjs-2';
 
 const data = {
-    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'Jul', 'Aug', 'Sep', 'Oct'],
     datasets: [
         {
             label: 'Positive',
-            data: [300, 250, 275, 230, 175, 250, 290, 250, 220, 330, 150, 180],
-            fill: false,
-            backgroundColor: 'rgb(255, 99, 132)',
-            borderColor: 'rgba(255, 99, 132, 0.2)',
+            data: [260, 220, 240, 200, 250, 220, 225, 255, 200, 225, 230, 180],
+            fill: true,
+            backgroundColor: 'rgb(255, 201, 147, 0.2)',
+            borderColor: 'rgb(255, 201, 147, 1)',
             yAxisID: 'y-axis-1',
+            tension: 0.4,
+            pointBackgroundColor: 'rgb(255, 156, 39)',
+
         },
         {
             label: 'Cured',
-            data: [250, 275, 225, 175, 250, 200, 225, 250, 260, 290, 320, 350],
-            fill: false,
-            backgroundColor: 'rgb(54, 162, 235)',
-            borderColor: 'rgba(54, 162, 235, 0.2)',
+            data: [190, 197, 193, 205, 196, 198, 190, 203, 195, 220, 230, 180],
+            fill: true,
+            backgroundColor: 'rgb(124, 81, 233, 0.2)',
+            borderColor: 'rgb(124, 81, 233)',
             yAxisID: 'y-axis-2',
+            tension: 0.4,
+            pointBackgroundColor: 'rgb(70, 0, 246)'
         },
     ],
 };
 
-const options = {
-    scales: {
-        yAxes: [
-            {
-                type: 'linear',
-                display: true,
-                position: 'left',
-                id: 'y-axis-1',
-            },
-            {
-                type: 'linear',
-                display: true,
-                position: 'right',
-                id: 'y-axis-2',
-                gridLines: {
-                    drawOnArea: false,
-                },
-            },
-        ],
-    },
-};
-
 const MultiAxisLine = () => (
     <>
-        <Line data={data} options={options} />
+        <Line data={data} />
     </>
 );
 
