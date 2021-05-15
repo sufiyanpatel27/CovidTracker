@@ -6,6 +6,7 @@ import HomeScreen from './screens/HomeScreen'
 import MainScreen from './screens/MainScreen'
 import LoginScreen from './screens/LoginScreen'
 import dashboard from './screens/dashboard'
+import SignupScreen from './screens/signup'
 
 //style
 import './style/style.css'
@@ -13,7 +14,9 @@ import './style/style.css'
 import firebase from 'firebase';
 import firebaseConfig from './config/firebase'
 
-firebase.initializeApp(firebaseConfig)
+if (!firebase.apps.length) {
+  firebase.initializeApp(firebaseConfig);
+}
 
 function App() {
   return (
@@ -23,6 +26,7 @@ function App() {
         <Route path='/mainscreen' exact component={MainScreen} />
         <Route path='/login' exact component={LoginScreen} />
         <Route path='/dashboard' exact component={dashboard} />
+        <Route path='/signup' exact component={SignupScreen} />
       </div>
     </Router>
   );

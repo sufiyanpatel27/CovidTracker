@@ -108,8 +108,11 @@ export default function HomeScreen() {
                         REPORTS
                     </div>
                     <div className='button_container'>
-
-                        <img src={sign_up_button} alt='log in' />
+                        <Link to={{
+                            pathname: "/signup",
+                        }} className="login_button" style={{ textDecoration: 'none' }}>
+                            <img src={sign_up_button} alt='log in' />
+                        </Link>
                     </div>
                     <div style={{ opacity: 0 }}>
                         dfsf

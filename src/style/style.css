@@ -138,7 +138,6 @@
 
 .lower_content {
     margin-top: 20px;
-    //background-color: red;
     display: flex;
     width: 900px;
     justify-content: space-evenly;
@@ -163,7 +162,6 @@
 
 
 .maincontainer {
-    //background-color: red;
     width: 1000px;
     padding: 10px;
 }
@@ -185,6 +183,12 @@
     height: 50px;
     width: 100%;
     transition: 0.5s;
+    display: flex;
+    align-items: center;
+}
+
+.name1 {
+    width: 200px;
 }
 
 .users:hover {
@@ -195,7 +199,6 @@
 }
 
 .name_container {
-    //background-color: red;
     width: 70px;
     display: flex;
     justify-content: space-between;
@@ -257,6 +260,7 @@
 .navbar_icons {
     width: 20px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .navbar_icons:hover {
@@ -572,6 +576,53 @@
 }
 
 .input_username {
+    height: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 1px;
+}
+
+.dashboard {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px;
+
+    background-image: url(../assets/dashboard_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+}
+
+.dashboard_main_content {
+    display: flex;
+    //background-color: red;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.blocks {
+    background-color: white;
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.4);
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.submit {
+    background-color: skyblue;
+    height: 30px;
+    width: 75px;
+    color: white;
     border: none;
-    height: 40px
+    border-radius: 5px;
 }
